@@ -8,6 +8,7 @@ use Core\Filer\Form\Forms;
 use Request;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 use URL;
+
 trait Filer
 {
     /**
@@ -106,7 +107,7 @@ trait Filer
     /**
      * Return url to upload the file.
      *
-     * @param srting        $field
+     * @param srting $field
      * @param srting|string $file
      *
      * @return null
@@ -119,7 +120,7 @@ trait Filer
     /**
      * Return url to upload the file.
      *
-     * @param srting        $field
+     * @param srting $field
      * @param srting|string $file
      *
      * @return null
@@ -132,7 +133,7 @@ trait Filer
     /**
      * Return url to upload the file.
      *
-     * @param srting        $field
+     * @param srting $field
      * @param srting|string $file
      *
      * @return null
@@ -160,9 +161,10 @@ trait Filer
         if (Request::has($field)) {
             $files = Request::get($field);
         }
-
-        $files = array_slice($files, 0, $this->getUploadFileCount($field));
-        $this->setAttribute($field, $files);
+        if ($files) {
+            $files = array_slice($files, 0, $this->getUploadFileCount($field));
+            $this->setAttribute($field, $files);
+        }
     }
 
     /**

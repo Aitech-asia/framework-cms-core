@@ -27,9 +27,10 @@ class SubMenuResourceController extends ResourceController
     public function show(MenuRequest $request, $id)
     {
         $menu = $this->repository->find($id);
+
         Form::populate($menu);
 
-        return view('menu::sub.show', compact('parent', 'menu'));
+        return view('menu::sub.show', compact('menu'));
     }
 
     /**
