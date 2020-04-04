@@ -1,0 +1,22 @@
+{
+    "name": "Core/node",
+    "description": "Node bundle for laravel",
+    "keywords": ["laravel", "node"],
+    "license": "MIT",
+    "homepage": "https://github.com/Core/Node",
+    "authors": [{
+        "name": "Laravel",
+        "email": "info@laravel.org"
+    }, {
+        "name": "George John",
+        "email": "george@renfos.org"
+    }],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\Node\\": ""
+        }
+    }
+}

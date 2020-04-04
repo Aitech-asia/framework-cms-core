@@ -1,0 +1,19 @@
+{
+    "name": "Core/trans",
+    "description": "Trans bundle for laravel",
+    "keywords": ["laravel", "Core", "trans"],
+    "license": "MIT",
+    "homepage": "https://github.com/Core/Trans",
+    "authors": [{
+        "name": "Laravel",
+        "email": "info@laravel.org"
+    }],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\Trans\\": ""
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Core/support",
+    "description": "Support bundle for laravel",
+    "keywords": ["laravel", "support"],
+    "license": "MIT",
+    "homepage": "https://github.com/Core/Support",
+    "authors": [
+        {
+            "name": "Laravel",
+            "email": "info@laravel.org"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": { 
+            "Core\\Support\\": ""
+        }
+    }
+}

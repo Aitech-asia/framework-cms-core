@@ -1,0 +1,24 @@
+{
+    "name": "Core/theme",
+    "description": "Theme bundle for laravel",
+    "keywords": ["laravel", "theme"],
+    "license": "MIT",
+    "homepage": "https://github.com/Core/Theme",
+    "authors": [
+        {
+            "name": "Laravel",
+            "email": "info@laravel.org"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "files": [
+            "helpers.php"
+        ],
+        "psr-4": { 
+            "Core\\Theme\\": ""
+        }
+    }
+}

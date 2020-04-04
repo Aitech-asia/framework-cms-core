@@ -1,0 +1,27 @@
+{
+    "name": "Core/settings",
+    "description": "Settings package for Core.",
+    "keywords": ["laravel", "Settings"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "laravel",
+            "email": "info@laravel.org"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "files": [
+            "helpers.php"
+        ],
+        "classmap": [
+            "database/seeds"
+        ],
+        "psr-4": {
+            "Core\\Settings\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}

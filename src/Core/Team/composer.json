@@ -1,0 +1,21 @@
+{
+    "name": "Core/team",
+    "description": "Team management package for laravel",
+    "keywords": ["laravel", "roles"],
+    "license": "MIT",
+    "homepage": "https://github.com/laravel/Team",
+    "authors": [
+        {
+            "name": "Laravel",
+            "email": "info@laravel.org"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": { 
+            "laravel\\Team\\": ""
+        }
+    }
+}

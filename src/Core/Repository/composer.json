@@ -1,0 +1,20 @@
+{
+    "name": "Core/repository",
+    "description": "Repository bundle for laravel",
+    "keywords": ["laravel", "Core", "repository"],
+    "license": "MIT",
+    "homepage": "https://github.com/Core/Repository",
+    "authors": [{
+        "name": "Laravel",
+        "email": "info@laravel.org"
+    }],
+    "require": {
+        "php": "^7.2",
+        "league/fractal": "^0.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\Repository\\": ""
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "name": "Core/activities",
+    "description": "A very simple activity logger to monitor the users of your website or application",
+    "homepage": "https://github.com/Core/activities",
+    "keywords": [
+        "laravel",
+        "log",
+        "user",
+        "activity",
+        "laravel"
+    ],
+    "authors": [{
+        "name": "Laravel",
+        "email": "info@laravel.org"
+    }, {
+        "name": "George John",
+        "email": "george@renfos.com"
+    }],
+    "require": {
+        "php": "^7.2",
+        "spatie/laravel-activitylog": "~3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\Activities\\": ""
+        },
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "license": "MIT"
+}
