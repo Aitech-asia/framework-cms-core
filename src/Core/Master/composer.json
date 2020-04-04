@@ -1,0 +1,25 @@
+{
+    "name": "Core/master",
+    "description": "Master package for Core.",
+    "keywords": ["laravel", "Master"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Laravel",
+        "email": "info@laravel.org"
+    }, {
+        "name": "George John",
+        "email": "george@renfos.com"
+    }],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "classmap": [
+            "database/seeds"
+        ],
+        "psr-4": {
+            "Core\\Master\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}

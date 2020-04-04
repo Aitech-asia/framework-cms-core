@@ -1,0 +1,22 @@
+{
+    "name": "Core/database",
+    "description": "Database bundle for laravel",
+    "keywords": ["laravel", "database"],
+    "license": "MIT",
+    "homepage": "https://github.com/Core/Database",
+    "authors": [{
+        "name": "Laravel",
+        "email": "info@laravel.org"
+    }, {
+        "name": "George John",
+        "email": "george@renfos.com"
+    }],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\Database\\": ""
+        }
+    }
+}

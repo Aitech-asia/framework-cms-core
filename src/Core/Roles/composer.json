@@ -1,0 +1,24 @@
+{
+    "name": "Core/roles",
+    "description": "Roles package for Core.",
+    "keywords": ["laravel", "Roles"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "laravel",
+            "email": "info@laravel.org"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "classmap": [
+            "database/seeds"
+        ],
+        "psr-4": {
+            "Core\\Roles\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}

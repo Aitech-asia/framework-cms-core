@@ -1,0 +1,19 @@
+{
+    "name": "Core/http",
+    "description": "Http package for laravel",
+    "keywords": ["laravel", "http", "Core"],
+    "license": "MIT",
+    "homepage": "https://github.com/Core/Http",
+    "authors": [{
+        "name": "Laravel",
+        "email": "info@laravel.org"
+    }],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\Http\\": ""
+        }
+    }
+}

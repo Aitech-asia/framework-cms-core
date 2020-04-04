@@ -1,0 +1,36 @@
+{
+    "name": "Core/block",
+    "description": "Block package for Core",
+    "keywords": ["laravel", "block"],
+    "license": "MIT",
+    "type": "laravel-package",
+    "homepage": "https://github.com/laravel/Block",
+    "authors": [
+        {
+            "name": "Core",
+            "email": "info@laravel.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3"
+    },
+    "autoload": {
+        "classmap": [
+            "database/seeds"
+        ],
+        "psr-4": { 
+            "Core\\Block\\": "/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Core\\Block\\BlockServiceProvider"
+            ],
+            "aliases": {
+                "Block"       : "Core\\Block\\Facades\\Block"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}

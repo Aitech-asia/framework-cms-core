@@ -1,0 +1,18 @@
+{
+    "name": "Core/node",
+    "description": "Node bundle for laravel",
+    "keywords": ["laravel", "node"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Laravel",
+        "email": "info@laravel.org"
+    }],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\Node\\": ""
+        }
+    }
+}

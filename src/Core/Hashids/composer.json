@@ -1,0 +1,20 @@
+{
+    "name": "Core/hashids",
+    "description": "Hashids bundle for laravel",
+    "keywords": ["laravel", "hashids"],
+    "license": "MIT",
+    "homepage": "https://github.com/Core/Hashids",
+    "authors": [{
+        "name": "Laravel",
+        "email": "info@laravel.org"
+    }],
+    "require": {
+        "php": "^7.2",
+        "hashids/hashids": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\Hashids\\": ""
+        }
+    }
+}
