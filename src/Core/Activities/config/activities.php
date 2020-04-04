@@ -32,7 +32,7 @@ return [
 
     /*
      * This model will be used to log activity. The only requirement is that
-     * it should be or extend the Lavalit\Activities\Models\Activity model.
+     * it should be or extend the Core\Activities\Models\Activity model.
      */
     'activity_model' => \Core\Activities\Models\Activity::class,
 
