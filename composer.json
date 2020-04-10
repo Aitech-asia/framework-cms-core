@@ -6,7 +6,7 @@
     "homepage": "http://laravel.org",
     "authors": [{
             "name": "Cms Framework",
-	        "email": "info@laravel.org
+	    "email": "info@laravel.org"
         }
     ],
     "require": {
